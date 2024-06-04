@@ -2,7 +2,7 @@
 
 function makeShirt(size: string = "Large", message: string = "I love Typescript"): void
 {
-   return console.log(`Size: ${size}, Message: "${message}"`);
+   console.log(`Size: ${size}, Message: "${message}"`);
 }
 
 //Large shirt with default message
